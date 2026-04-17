@@ -51,6 +51,7 @@ class Notes {
 
 		do {
 			num = random.nextInt(11) - 5;
+			// System.out.println(num);
 		} while (num == 0); //condition is what you are EXCLUDING
 
 		System.out.println(num);
