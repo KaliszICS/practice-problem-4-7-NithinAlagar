@@ -26,3 +26,5 @@ public class PracticeProblem {
 	    num2 = num2/2;
 	    return (ran.nextInt(num2 - (num2 - num1) + 1)+num1 + 1)*2;
 	}
+
+}
