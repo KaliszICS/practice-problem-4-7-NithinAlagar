@@ -1,8 +1,8 @@
 /**
 	* Lesson: Random Module
-	* Author: Mr. Kalisz
+	* Author: Nithin.A
 	* Date Created: April 22, 2023
-	* Date Last Modified: April 22, 2026
+	* Date Last Modified: April 23, 2026
 	*/
 import java.util.Random;
 public class PracticeProblem {
