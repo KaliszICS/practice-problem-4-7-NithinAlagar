@@ -12,12 +12,12 @@ public class PracticeProblem {
 	}
 	public static int randomInt(int num1, int num2){
 	    Random ran = new Random();
-		return ran.nextInt(num2 - (num2 - num1) + 1)+num1;
+		return (ran.nextInt(num2 + 1 - num1))+num1;
 	}
 	
 	public static char randomChar(String str){
 	    Random ran = new Random();
-	    return str.charAt(ran.nextInt(str.length() + 1));
+	    return str.charAt(ran.nextInt(str.length()));
 	}
 	
 	public static int randomEvenNumber(int num1, int num2){
