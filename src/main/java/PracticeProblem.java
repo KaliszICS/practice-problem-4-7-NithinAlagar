@@ -10,7 +10,7 @@ public class PracticeProblem {
 	public static void main(String args[]) {
 
 	}
-	public static int randomInt(int num1, int num2){
+	public static int randomNumber(int num1, int num2){
 	    Random ran = new Random();
 		return (ran.nextInt(num2 + 1 - num1))+num1;
 	}
