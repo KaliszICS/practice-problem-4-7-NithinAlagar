@@ -23,8 +23,8 @@ public class PracticeProblem {
 	public static int randomEvenNumber(int num1, int num2){
 	    Random ran = new Random();
 	    num1 = num1/2;
-	    num2 = num2/2;
-	    return (ran.nextInt(num2 - (num2 - num1) + 1)+num1 + 1)*2;
+	    num2= num2/2;
+	    return ((ran.nextInt(num2 - num1)+ num1))*2 + 2;
 	}
 
 }
